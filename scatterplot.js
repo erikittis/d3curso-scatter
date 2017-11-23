@@ -2,7 +2,7 @@ console.log("hola")
 
 d3.json("partidos.js", function(data) {
     
-    console.log("wiii")
+    console.log("hola git")
     
     window.data = data
     
@@ -26,8 +26,8 @@ d3.json("partidos.js", function(data) {
         .data(partidos)
         .enter()
         .append("circle")
-        .attr("cx", function(d) {return escalacx(
-        d.mediaAutoubicacion)})
+        .attr("cx", function(d) {return 
+        escalacx(d.mediaAutoubicacion)})
         .attr("r", 10)
         .attr("cy", 10)
     
